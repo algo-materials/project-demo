@@ -1,0 +1,86 @@
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+sortcompare-gradle/.idea/**/workspace.xml
+sortcompare-gradle/.idea/**/tasks.xml
+sortcompare-gradle/.idea/**/usage.statistics.xml
+sortcompare-gradle/.idea/**/dictionaries
+sortcompare-gradle/.idea/**/shelf
+
+# Generated files
+sortcompare-gradle/.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+sortcompare-gradle/.idea/**/dataSources/
+sortcompare-gradle/.idea/**/dataSources.ids
+sortcompare-gradle/.idea/**/dataSources.local.xml
+sortcompare-gradle/.idea/**/sqlDataSources.xml
+sortcompare-gradle/.idea/**/dynamic.xml
+sortcompare-gradle/.idea/**/uiDesigner.xml
+sortcompare-gradle/.idea/**/dbnavigator.xml
+
+# Gradle
+sortcompare-gradle/.idea/**/gradle.xml
+sortcompare-gradle/.idea/**/libraries
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# sortcompare-gradle/.idea/artifacts
+# sortcompare-gradle/.idea/compiler.xml
+# sortcompare-gradle/.idea/jarRepositories.xml
+# sortcompare-gradle/.idea/modules.xml
+# sortcompare-gradle/.idea/*.iml
+# sortcompare-gradle/.idea/modules
+# *.iml
+# *.ipr
+
+# CMake
+cmake-build-*/
+
+# Mongo Explorer plugin
+sortcompare-gradle/.idea/**/mongoSettings.xml
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbtsortcompare-gradle/.idea plugin
+sortcompare-gradle/.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+sortcompare-gradle/.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+sortcompare-gradle/.idea/httpRequests
+
+# Android studio 3.1+ serialized cache file
+sortcompare-gradle/.idea/caches/build_file_checksums.ser
+.gradle
+**/build/
+!src/**/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
