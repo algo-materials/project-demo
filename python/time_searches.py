@@ -16,6 +16,7 @@ print('timeit: binarySearch')
 print(timeit.timeit('binarySearch(searchlist, tofind)', globals=globals(), number=ITERS)/ITERS)
 print('---')
 print('Using perf_counter')
+# again, notice I'm being very consistent with what I'm searching for
 # loops and perf_counter
 start = perf_counter()
 for i in range(ITERS):
